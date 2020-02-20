@@ -1,0 +1,99 @@
+* {
+   font-family: 'Lato', sans-serif;
+}
+.header {
+   background-color: rgb(201, 94, 52);
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+.form-inputs {
+   text-align: center;
+   display: block;
+   padding: 2px;
+}
+.meme {
+   position: relative;
+   width: 35%;
+}
+.overlay {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 100%;
+   width: 100%;
+   opacity: 0;
+   transition: .5s ease;
+   background-color: rgba(62, 69, 73, 0.856);
+   border-radius: 5px;
+}
+.meme:hover .overlay {
+   opacity: 1;
+   cursor: pointer;
+}
+.topText {
+   position: absolute;
+   top: 8%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 3rem;
+}
+.bottomText {
+   position: absolute;
+   top: 92%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 3rem;
+}
+.text {
+   color: white;
+   font-size: 50px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+}
+.image {
+   display: block;
+   width: 100%;
+   height: 350px;
+   border-radius: 5px;
+}
+.url, .topText, .bottomText {
+   text-align: left;
+}
+h1 {
+   font-style: italic;
+   text-align: center;
+   font-size: 3rem;
+   margin: 0;
+   padding-bottom: 5px;
+}
+h3 {
+   font-style: italic;
+   text-align: center;
+   font-size: 2rem;
+   margin: 0;
+   padding-bottom: 5px;
+}
+input[type='submit'] {
+   cursor: pointer;
+   border-radius: 2px;
+   width: 150px;
+   height: 30px;
+   display: inline-block;
+}
+input {
+   font-family: inherit;
+   font-size: 100%;
+   width : 300px;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+
+
